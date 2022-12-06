@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    Menu
+{% endblock %}
+
+
+{% block body %}
+    <div class="menu">
+        <div class="container" style="flex-direction: column">
+            <div class="px-4 my-4 text-center">
+                <h1>Menu</h1>
+            </div>
+            <ul id="menu-tabs" class="nav nav-tabs" role="tablist">
+                <li class="nav-item col-md-4 col-sm-12 col-xs-12">
+                    <a style="text-transform: uppercase; text-align: center" id="bowl-menu-tab" class="nav-link bowl-menu-tab active show" href="#bowl-menu" data-toggle="tab" aria-controls="bowl-menu" aria-selected="true">
+                        Chef Menu
+                    </a>
+                </li>
+                <li class="nav-item col-md-4 col-sm-12 col-xs-12">
+                    <a style="text-transform: uppercase; text-align: center" href="#drinks-menu" class="nav-link drink-menu-tab" id="drinks-menu-tab" data-toggle="tab" role="tab" aria-controls="drinks-menu" aria-selected="false">
+                        Drinks
+                    </a>
+                </li>
+                <li class="nav-item col-md-4 col-sm-12 col-xs-12">
+                    <a style="text-transform: uppercase; text-align: center" href="#smoothie" class="nav-link drink-menu-tab" id="smoothie-tab" data-toggle="tab" role="tab" aria-controls="smoothie" aria-selected="false">
+                        Smoothie Bowls
+                    </a>
+                </li>
+            </ul>
+            <div id="menu-tab-content" class="tab-content">
+                <div id="bowl-menu" class="tab-pane fade active show" role="tabpanel" aria-labelledby="bowl-menu-tab">
+                    <div class="row">
+                        <div class="col-xs-12" style="text-align: center !important; margin-top: 3%">
+                            <h3 style="text-align: center; text-transform: uppercase">Chef Menu</h3>
+                            <ul class="menu-items" style="margin-top: 3%; margin-bottom: 3%">
+                                <li>
+                                    <p class="menu-heading">
+                                        Salmone Poke.................26 gel
+                                    </p>
+                                    <p class="menu-body">
+                                        Sushi rice, salmon, cucumber, carrot, tomatoes cherry, broccoli, pickled radish, sesame tofu sauce,peanut
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="menu-heading">
+                                        Chicken poke.................22 gel
+                                    </p>
+                                    <p class="menu-body">
+                                        Sushi rice, chicken, red cabbage, tomatoes cherry, carrot, bell papper, cucumber, sesame tofu sauce, peanut
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="menu-heading">
+                                        Tuna poke.................28 gel
+                                    </p>
+                                    <p class="menu-body">
+                                        Sushi rice, tuna, cucumber, tomatoes cherry, radish, broccoli, kiwi, tuna sauce, crispy onion
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="menu-heading">
+                                        Shrimp strawberry.................30 gel
+                                    </p>
+                                    <p class="menu-body">
+                                        Sushi rice, shrimp, cucumber, tomatoes cherry, red cabbage, strawberry, orange, broccoli, sweet chilli garlic sause
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="menu-heading">
+                                        Vegan bowl.................22 gel
+                                    </p>
+                                    <p class="menu-body">
+                                        Sushi rice, chickpeas, hummus, cucumber, tomatoes cherry, broccoli, teriyaki sauce, nori, sesame seeds
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="menu-heading">
+                                        Canned tuna.................22 gel
+                                    </p>
+                                    <p class="menu-body">
+                                        Sushi rice, canned tuna chilli mayo, broccoli, iceberg salad, chukka, cucumber, tomatoes cherry, hummus, sesame, unagi sauce
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="menu-body" style="text-decoration: underline">
+                                        You can choose quinoa with any poke and if you have any allergies please tell us
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

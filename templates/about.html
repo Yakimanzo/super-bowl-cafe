@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    About Us
+{% endblock %}
+
+
+{% block body %}
+    <div class="about-us_page">
+        <div class="about-bg"></div>
+        <div class="container" style="flex-direction: column">
+            <div class="px-4 my-4 text-center">
+                <h1>About Us</h1>
+            </div>
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-3">
+                    <video id="myVideo" class="d-block mx-lg-auto" height="500" autoplay="autoplay" muted="muted" loop="loop">
+                        <source src="static/media/about-video.MP4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-lg-6 about-content">
+                    <h3 class="fw-bold lh-1 mb-3">We are</h3>
+                    <p class="lead">
+                        A Yummi place that will remain in your heart for a long time
+                        <br><br>
+                        Our bowls combine a source of carbohydrates (rice or quinoa), a source of protein (traditionally fish or seafood, but we also use chicken), a selection of crisp and colourful veggies, and a dusting of crunchy nuts and sesame, which makes for a meal that's full of essential nutrients.
+                    </p>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-3">
+                    <video id="myVideo" class="d-block mx-lg-auto" height="500" autoplay="autoplay" muted="muted" loop="loop">
+                        <source src="static/media/about-video2.MP4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="divide-block"></div>
+        <div class="container">
+            <div class="row flex-lg-row- align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img class="d-block mx-lg-auto img-fluid about-img" src="static/images/bowlgirl.jpg" alt="bowl" width="700" height="500">
+                </div>
+                <div class="col-lg-6 about-content">
+                    <p class="lead">
+                        Of course, portion size, ingredients and cooking technique will impact the caloric and nutritional content of a poke bowl but, generally speaking, poke bowls are a solid choice if you're after a healthy (and tasty) meal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

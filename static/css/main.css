@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Prompt', sans-serif;;
+}
+
+.header{
+    background-color: #FFDC4A;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    line-height: 20px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.logo span:last-child{
+    font-size: 15px;
+}
+
+.menu a{
+    color: black;
+}
+
+.footer{
+    background-color: #FFDC4A;
+}
+
+.footer-logo img{
+    width: 60px;
+    height: 60px;
+}
+
+.footer .media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media img{
+    width: 50px;
+    height: 50px;
+}
+
+.main-page{
+    background: url("../images/main-bg.jpg")no-repeat center, #FEE4E5;
+    background-size: cover;
+}
+
+.bowl{
+    border-radius: 100%;
+}
+
+.title{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 70px;
+    background: linear-gradient(#4C6C00, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.about-us_page{
+    position: relative;
+    z-index: 2;
+}
+
+.about-content{
+    background-color: #fff;
+    border: 5px solid #FFDC4A;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.about-bg {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(5px);
+  background: url(../images/about-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+
+#myVideo{
+    border-radius: 100%;
+    border: 5px solid #FFDC4A;
+}
+
+.divide-block{
+    width: 100%;
+    height: 5vh;
+    background: url(../images/superbowl.jpg) repeat-x center;
+    background-size: contain;
+}
+
+.about-img{
+    border: 5px solid #FFDC4A;
+    border-radius: 10px;
+}
+
+.menu-heading{
+    font-weight: bold;
+    font-size: 20px;
+}
